@@ -1,0 +1,43 @@
+{
+  "name": "wardrobe-app",
+  "version": "1.0.0",
+  "private": true,
+  "allowScripts": {
+    "next": true,
+    "sharp": true,
+    "esbuild": true
+  },
+  "dependencies": {
+    "@imgly/background-removal": "^1.7.0",
+    "next": "^15.5.29",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "autoprefixer": "^10.6.2",
+    "postcss": "^8.5.32",
+    "tailwindcss": "^3.4.19",
+    "typescript": "^5.9.3"
+  },
+  "scripts": {
+    "dev": "next dev -p 3200",
+    "build": "next build",
+    "start": "npx serve out -l 3200",
+    "typecheck": "tsc --noEmit",
+    "test": "node --experimental-strip-types --test tests/*.test.mjs"
+  },
+  "keywords": [
+    "pwa",
+    "offline",
+    "wardrobe",
+    "fashion",
+    "progressive-web-app"
+  ],
+  "homepage": ".",
+  "repository": {
+    "type": "git",
+    "directory": "wardrobe-app"
+  }
+}

@@ -1,0 +1,8 @@
+node_modules
+.next
+out
+*.tsbuildinfo
+.claude-flow
+.env*
+# never commit your own backups: they contain your closet photos
+threads-backup-*.json
